@@ -29,6 +29,11 @@ body {
 	line-height: 1;
 }
 
+#intro img{
+	width: 100px;
+	border-radius: 50%;
+}
+
 ol, ul {
 	list-style: none;
 }

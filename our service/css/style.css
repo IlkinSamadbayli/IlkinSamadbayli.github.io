@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.heading{
+    text-align: center;
+    padding: 22px 0;
+    font-size: 36px;
+    color: #0f70a3;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 15px;
+    padding: 20px;
+}
+
+.card-container .card{
+    border: 3px solid #0f70a3;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #0f70a3;
+    background: #fff;
+    text-align: center;
+}
+
+.card-container .card span{
+    margin: 10px 0;
+    font-size: 32px;
+    color: #0f70a3;
+}
+
+.card-container .card .card-title{
+    color: #0f70a3;
+    margin: 10px;
+    font-size: 21px;
+}
+
+.card-container .card p{
+    color: gray;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.card-container .card a{
+    text-decoration: none;
+    color: #0f70a3;
+    padding: 10px;
+    font-size: 18px;
+    display: block;
+    opacity: .7;
+}
+
+.card a:hover{
+    opacity: 1.2;
+}
